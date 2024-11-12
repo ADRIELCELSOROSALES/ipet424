@@ -26,6 +26,23 @@
             </div>
         </header>
 
+        <div class="escudo-container" style="display: flex; justify-content: center; margin-bottom: 20px;">
+            <img src="C:/Users/Adriel/Desktop/paginas para la escuela/intento 3/dist/images/escudo.svg" 
+                alt="Escudo de la escuela"
+                style="width: 150px; animation: bounce 2s infinite;">
+        </div>
+        
+        <style>
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-15px);
+            }
+        }
+        </style>
+        
         <main>
             <section class="hero">
                 <div class="container">
@@ -37,6 +54,7 @@
                             <a class="button button-primary" href="https://wa.me/+543517319993?text=Hola%20me%20gustaría%20obtener%20más%20información%20sobre%20el%20IPET%20424" target="_blank">Conoce más</a>
                         </div>
                         </div>
+                        
                         <div class="hero-figure anime-element">
                             <svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
                                 <rect width="528" height="396" style="fill:transparent;" />
@@ -56,6 +74,8 @@
                 </div>
             </section>
 
+
+
             <div class="container">
                 <div class="features-inner section-inner has-bottom-divider">
                     <h2 class="section-title text-center" style="color: #ffffff; margin-bottom: 40px;">Conoce Nuestro Enfoque Educativo</h2>
@@ -65,21 +85,24 @@
                         <div class="feature-column" style="flex: 1; padding: 20px; background-color: #272e46; border-radius: 8px;">
                             <h3 class="feature-title" style="margin-bottom: 16px; font-size: 1.5em; color: #ffffff;">Nuestra Oferta Educativa</h3>
                             <ul class="feature-list" style="list-style-type: none; padding-left: 0; color: #bfbfbf;">
-                                <li style="margin-bottom: 10px;"><strong>Técnico en Programación e Informática:</strong> Capacitación integral en desarrollo de software y aplicaciones avanzadas.</li>
-                                <li style="margin-bottom: 10px;"><strong>Técnico en Electrónica:</strong> Formación en diseño y mantenimiento de sistemas electrónicos y circuitos digitales.</li>
-                                <li><strong>Técnico en Mecánica:</strong> Enseñanza en diseño, ensamblaje y mantenimiento de maquinaria y sistemas mecánicos.</li>
+                                <li style="margin-bottom: 10px;">
+                                <strong>Técnico en Programación:</strong> Enfocado en el desarrollo de software, aplicaciones móviles y web, integrando conocimientos de algoritmos, estructuras de datos y desarrollo de interfaces intuitivas.
+                                </li>
+                                <li style="margin-bottom: 10px;">
+                                <strong>Técnico en Informática:</strong> Orientado a redes, seguridad informática y administración de sistemas, brindando una base sólida para manejar infraestructuras tecnológicas y resolver problemas complejos de conectividad y seguridad.
+                                </li>
                             </ul>
                         </div>
             
                         <!-- Segunda Columna -->
-                        <div class="feature-column" style="flex: 1; padding: 20px; background-color: #1c2954; border-radius: 8px;">
-                            <h3 class="feature-title" style="margin-bottom: 16px; font-size: 1.5em; color: #ffffff;">Cursos y Talleres Extraescolares</h3>
-                            <ul class="feature-list" style="list-style-type: none; padding-left: 0; color: #bfbfbf;">
-                                <li style="margin-bottom: 10px;"><strong>Robótica:</strong> Construcción y programación de robots.</li>
-                                <li style="margin-bottom: 10px;"><strong>Programación Avanzada:</strong> Desarrollo de habilidades en software, estructuras de datos y algoritmos.</li>
-                                <li><strong>Diseño de Aplicaciones Móviles:</strong> Taller para crear aplicaciones móviles desde la idea hasta el producto final.</li>
-                            </ul>
-                        </div>
+                    <div class="feature-column" style="flex: 1; padding: 20px; background-color: #1c2954; border-radius: 8px;">
+                        <h3 class="feature-title" style="margin-bottom: 16px; font-size: 1.5em; color: #ffffff;">Cursos y Talleres Extraescolares</h3>
+                        <ul class="feature-list" style="list-style-type: none; padding-left: 0; color: #bfbfbf;">
+                            <li style="margin-bottom: 10px;"><strong>Robótica:</strong> Construcción y programación de robots, ideal para aplicar la lógica y la creatividad en proyectos tangibles.</li>
+                            <li style="margin-bottom: 10px;"><strong>Programación Avanzada:</strong> Desarrollo de habilidades en software, estructuras de datos y algoritmos de alta complejidad.</li>
+                            <li><strong>Diseño de Aplicaciones Móviles:</strong> Taller completo que guía desde la idea hasta el lanzamiento de una app funcional.</li>
+                        </ul>
+                    </div>
             
                         <!-- Tercera Columna -->
                         <div class="feature-column" style="flex: 1; padding: 20px; background-color: #152456; border-radius: 8px;">
@@ -92,18 +115,31 @@
                 </div>
             </div>
         
-            
-            <section class="pricing section">
+            <section class="projects section" style="background-color: #1e1e3e; padding: 60px 0; text-align: center;">
                 <div class="container-sm">
-                    <div class="pricing-inner section-inner">
-                        <div class="pricing-header text-center">
-                            <h2 class="section-title mt-0">Proyectos de Alumnos</h2>
-                            <p class="section-paragraph mb-0">Aquí presentamos los proyectos destacados de cada especialidad, como el desarrollo de aplicaciones, creación de dispositivos electrónicos y más.</p>
-                            <a class="button button-primary" href="https://bit.ly/3GcpBQP">Ver más proyectos</a>
+                    <div class="projects-inner section-inner">
+                        <div class="projects-header" style="margin-bottom: 30px;">
+                            <h2 class="section-title mt-0" style="color: #ffffff; font-size: 2.4em;">Proyectos Innovadores de Nuestros Alumnos</h2>
+                            <p class="section-paragraph" style="color: #bfbfbf; font-size: 1.1em; max-width: 700px; margin: 0 auto;">
+                                Explora los proyectos creativos y técnicos realizados por nuestros estudiantes, en los que aplican sus conocimientos en desarrollo de software, electrónica y robótica. Estos trabajos reflejan su dedicación y visión hacia el futuro.
+                            </p>
+                        </div>
+                        <div class="projects-footer" style="margin-top: 30px;">
+                            <a class="button button-primary" href="https://juandomingo19999.wixsite.com/-proyecto-de-fin-de" 
+                                style="font-size: 1.1em; padding: 12px 24px; background-color: #4285f4; color: #ffffff; border-radius: 6px; text-decoration: none; position: relative; animation: buttonFloat 4s infinite ease-in-out;">
+                                Ver Proyectos Destacados
+                            </a>
                         </div>
                     </div>
                 </div>
             </section>
+            <style>
+                @keyframes buttonFloat {
+                0% { transform: translateY(0px); }
+                50% { transform: translateY(-5px); }
+                100% { transform: translateY(0px); }
+                }
+            </style>
             
 
             <section class="team section">
