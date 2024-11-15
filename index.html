@@ -146,50 +146,115 @@
                 <div class="container-sm">
                     <div class="team-inner section-inner">
                         <div class="team-header text-center">
-                            <h2 class="section-title mt-0">Docentes y Equipo</h2>
-                            <p class="section-paragraph mb-0">Conoce a nuestros docentes altamente capacitados en tecnología y ciencias, comprometidos con un aprendizaje práctico y actualizado.</p>
+                            <h2 class="section-title mt-0">Conoce a Nuestro Equipo de Docentes</h2>
+                            <p class="section-paragraph mb-0">Expertos apasionados en tecnología y ciencias, dedicados a brindar una educación innovadora y práctica para el futuro de nuestros estudiantes.</p>
                         </div>
             
                         <!-- Contenedor de Tarjetas de Docentes -->
-                        <div class="team-list" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 30px;">
-                            
-                            <!-- Ejemplo de Tarjeta de Docente -->
-                            <div class="team-card" style="flex: 0 1 250px; background-color: #1f1f1f; padding: 20px; border-radius: 12px; text-align: center; transition: transform 0.3s ease;">
-                                <h3 style="color: #ffffff; font-size: 1.3em; margin-bottom: 10px;">Prof. Marcelo Ramirez</h3>
-                                <p style="color: #a0a0a0; font-size: 1em; margin-bottom: 15px;">Especialidad en Base de Datos</p>
-                                <p style="color: #a0a0a0; font-size: 0.9em; margin-bottom: 15px;">Con más de 10 años de experiencia.</p>
-                                <a href="mailto:escuela.ipet424@gmail.com" style="color: #5cb85c; text-decoration: none; font-size: 0.9em;">Contactar</a>
+                        <div class="team-list">
+                
+                            <!-- Tarjeta de Docente -->
+                            <div class="team-card">
+                                <h3>Prof. Marcelo Ramírez</h3>
+                                <p>Especialista en Bases de Datos</p>
+                                <p>Más de 10 años formando expertos en bases de datos y análisis de información.</p>
+                                <a href="mailto:escuela.ipet424@gmail.com">Contactar</a>
                             </div>
             
-                            <!-- Agregar más tarjetas de docentes aquí -->
-                            
-                            <!-- Ejemplo de Tarjeta -->
-                            <div class="team-card" style="flex: 0 1 250px; background-color: #1f1f1f; padding: 20px; border-radius: 12px; text-align: center; transition: transform 0.3s ease;">
-                                <h3 style="color: #ffffff; font-size: 1.3em; margin-bottom: 10px;">Prof. Ana López</h3>
-                                <p style="color: #a0a0a0; font-size: 1em; margin-bottom: 15px;">Especialidad en Programación</p>
-                                <p style="color: #a0a0a0; font-size: 0.9em; margin-bottom: 15px;">Docente en desarrollo de software y aplicaciones.</p>
-                                <a href="mailto:escuela.ipet424@gmail.com" style="color: #5cb85c; text-decoration: none; font-size: 0.9em;">Contactar</a>
+                            <!-- Tarjeta de Daiana Luján -->
+                            <div class="team-card">
+                                <h3>Prof. Daiana Luján</h3>
+                                <p>Especialista en Redes y Telecomunicaciones</p>
+                                <p>Profesional de redes con más de 5 años de experiencia.</p>
+                                <a href="mailto:escuela.ipet424@gmail.com">Contactar</a>
+                            </div>
+            
+                            <!-- Tarjeta de Franco Prigent -->
+                            <div class="team-card">
+                                <h3>Prof. Franco Prigent</h3>
+                                <p>Especialista en Laboratorio de Aplicaciones</p>
+                                <p>Analista de sistemas con más de 10 años en el campo tecnológico.</p>
+                                <a href="mailto:escuela.ipet424@gmail.com">Contactar</a>
+                            </div>
+            
+                            <!-- Tarjeta de Ivana Guzmán -->
+                            <div class="team-card">
+                                <h3>Prof. Ivana Guzmán</h3>
+                                <p>Especialista en Redes, Web y Datos</p>
+                                <p>Más de 8 años de experiencia en educación y tecnología.</p>
+                                <a href="mailto:escuela.ipet424@gmail.com">Contactar</a>
+                            </div>
+            
+                            <!-- Tarjeta de Adriel Rosales -->
+                            <div class="team-card">
+                                <h3>Prof. Adriel Rosales</h3>
+                                <p>Especialista en Desarrollo Web y Android</p>
+                                <p>5 años de experiencia en el mundo IT como desarrollador front-end.</p>
+                                <a href="mailto:escuela.ipet424@gmail.com">Contactar</a>
                             </div>
             
                         </div>
             
-                        <p class="section-paragraph mb-0 text-center" style="margin-top: 30px;">Para más información, comunícate con nuestra coordinación al correo: <a href="mailto:escuela.ipet424@gmail.com" style="color: #5cb85c;">escuela.ipet424@gmail.com</a></p>
+                        <p class="section-paragraph mb-0 text-center" style="margin-top: 30px;">Para más información, comunícate con nuestra coordinación al correo: <a href="mailto:escuela.ipet424@gmail.com" style="color: #5cb85c; font-weight: bold;">escuela.ipet424@gmail.com</a></p>
                     </div>
                 </div>
             </section>
             
             <style>
-                .team-card:hover {
-                    transform: scale(1.05); /* Agranda la tarjeta ligeramente al pasar el cursor */
-                    background-color: #292929; /* Cambia el color de fondo para hacerla destacar */
+                .team-list {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    gap: 20px;
+                    margin-top: 30px;
                 }
+            
+                .team-card {
+                    flex: 0 1 250px;
+                    background-color: #1e1e1e;
+                    padding: 25px;
+                    border-radius: 15px;
+                    text-align: center;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                    transition: transform 0.3s ease, background-color 0.3s ease;
+                }
+            
+                .team-card:hover {
+                    transform: scale(1.05);
+                    background-color: #292929;
+                }
+            
                 .team-card h3 {
+                    color: #ffffff;
+                    font-size: 1.3em;
+                    margin-bottom: 10px;
                     transition: color 0.3s ease;
                 }
+            
                 .team-card:hover h3 {
-                    color: #5cb85c; /* Cambia el color del nombre del docente */
+                    color: #5cb85c;
+                }
+            
+                .team-card p {
+                    color: #a0a0a0;
+                    font-size: 0.9em;
+                    margin-bottom: 15px;
+                }
+            
+                .team-card a {
+                    color: #5cb85c;
+                    text-decoration: none;
+                    font-size: 0.9em;
+                    font-weight: bold;
+                    transition: color 0.3s ease;
+                }
+            
+                .team-card:hover p,
+                .team-card:hover a {
+                    color: #c8c8c8;
                 }
             </style>
+            
 
             <section class="faq section">
                 <div class="container">
